@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>PARCIAL</title>
+	<style>
+		.papá{
+				background: #00FFFF;
+			position: absolute;
+			left: 200px;
+			top:12px;
+			width: 1000px;
+			height: 1000px;
+			box-sizing: border-box;
+			margin-left:1px;
+		}
+		.predator{
+		background: #64FE2E;
+			position: absolute;
+			top:500px;
+			left: 100px;
+			width: 300px;
+			height: 100px;
+			margin-left:800px;
+		}
+		.nom{
+				background: greenyellow;
+			position: absolute;
+			top: 30px;
+			left: 200px;
+			width: 300px;
+			height: 100px;
+			margin-left:5px;
+			
+		}
+		.boton{
+			background:yellow;
+			position: absolute;
+			top: 30px;
+			left: 880px;
+			width: 300px;
+			height: 100px;
+			box-sizing: border-box;
+			margin-left:5px;
+			margin-bottom: 5px;
+		}
+		.cuadro2{
+			background: yellow;
+			position: absolute;
+			left: 50px;
+			top:100px;
+			width: 600px;
+			height: 700px;
+			margin-left:5px;
+		}
+		.cuadro{
+			background: red;
+			position: absolute;
+			left: 50px;
+			top:100px;
+			width: 600px;
+			height: 700px;
+			margin-left:5px;
+			
+		}
+		
+		.cerrar{
+			background: greenyellow;
+			position: absolute;
+			top: 150px;
+			left: 220px;
+			width: 200px;
+			height: 50px;
+		}
+		.cerrar2{
+			background: green;
+			position: absolute;
+			top: 150px;
+			left: 700px;
+			width: 200px;
+			height: 50px;
+		}
+
+
+	</style>
+</head>
+<body background="imagen.jpg">
+   <div class="papá"></div>
+   <div class="predator" id="predator" onclick="document.getElementById('apa1') .style.display='block'">
+   	<div class="activador"></div>
+   	<center><h1>TEMA 2</h1></center>
+   </div>
+   <div class="nom" id="nom" onclick="document.getElementById('apa3') .style.display='block'"">
+   	<div class="activador" ></div>
+   	<center><h1>TEMA</h1></center>
+   </div>
+   <div class="boton" id="boton"  onclick=" document.getElementById('musica').play()">
+   	<center><h1>PLAY</h1></center>
+   </div>
+   	 </div>
+   	 <div class="cerrar" id="cerrar" onclick="document.getElementById('apa3') .style.display='none'">
+         <div class="activador"></div>
+
+   	 	<h2><center>CERRAR</center></h2>
+   	 	<div class="cerrar2" id="cerrar2" onclick="document.getElementById('apa1') .style.display='none'">
+   	 			<h2><center>CERRAR2</center></h2>
+   	 	
+   	 	</div>
+
+   	 		<div class="activador"></div>
+   	 	
+   	 		
+   <div class="cuadro" id="apa1">
+   	<center><h1>VENOM</h1></center>
+   	<h2>Venom ha sido adaptado a medios como el cómic, series animadas de TV, los videojuegos y el cine. Su origen e historia se ha modificado según las circunstancias y los gustos de distintos tipos de público, pero siempre permanece inalterable el hecho de que es realmente un simbionte, casi siempre de origen extraterrestre y que comparte con Spider-Man muchos de sus poderes y habilidades (adherirse a casi cualquier tipo superficie, gran fuerza y agilidad, poder extender partes de sí mismo para adherirse, etc.), e incluso su aspecto debido al vínculo que mantuvieron ambos en el pasado. </h2>
+   	 <img src="venom.jpg">
+   
+   </div>
+   <div class="cuadro2" id="apa3"> 
+   	<center><h1>CARNAGE</h1></center>
+   	<h2>El simbionte Carnage fue derivado por el escritor David Michelinie, mientras que Mark Bagley diseñó el simbionte Carnage. El simbionte fue diseñado para ser una versión más oscura de Venom y se creó debido a que los escritores no querían un reemplazo para Eddie Brock como Venom. Carnage fue en parte creado debido a la inmensa popularidad de Venom entre los fanáticos. El personaje originalmente iba a llamarse "Caos"4​y luego "Ravage" antes de ser decidido en "Carnage".</h2>
+   	<img src="carnege.jpg"></div>
+  <audio src="musica.mp3" id="musica"></audio>
+</body>
+</html>
